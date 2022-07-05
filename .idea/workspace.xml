@@ -1,19 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9d95a9b-766a-4c51-ab14-c22b46d86177" name="Default Changelist" comment="" />
+    <list default="true" id="f9d95a9b-766a-4c51-ab14-c22b46d86177" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2BWSk0gbhnHL1ilEacNUsDLShaM" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="experimental" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pl.amberteam.antycaptcha.task" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Task1Test">
+    <configuration name="Task1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Amber" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.amberteam.antycaptcha.task.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.amberteam.antycaptcha.task" />
+      <option name="MAIN_CLASS_NAME" value="pl.amberteam.antycaptcha.task.Task1Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task1Test.openExerciseOnePageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Amber" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.amberteam.antycaptcha.task.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.amberteam.antycaptcha.task" />
+      <option name="MAIN_CLASS_NAME" value="pl.amberteam.antycaptcha.task.Task1Test" />
+      <option name="METHOD_NAME" value="openExerciseOnePageTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Task1Test" />
+        <item itemvalue="JUnit.Task1Test.openExerciseOnePageTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -27,5 +88,163 @@
       <updated>1657020488210</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="329" y="356" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1657034313928">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="329" y="356" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1600.860@0.0.1600.860" timestamp="1657034313928" />
+    <state width="1557" height="299" key="GridCell.Tab.0.bottom" timestamp="1657061133447">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="299" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1920.1160@0.0.1600.860" timestamp="1657059339568" />
+    <state width="1557" height="299" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1657061133447" />
+    <state width="1557" height="299" key="GridCell.Tab.0.center" timestamp="1657061133447">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="299" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1920.1160@0.0.1600.860" timestamp="1657059339568" />
+    <state width="1557" height="299" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1657061133447" />
+    <state width="1557" height="299" key="GridCell.Tab.0.left" timestamp="1657061133447">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="299" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1920.1160@0.0.1600.860" timestamp="1657059339567" />
+    <state width="1557" height="299" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1657061133447" />
+    <state width="1557" height="299" key="GridCell.Tab.0.right" timestamp="1657061133447">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="299" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1920.1160@0.0.1600.860" timestamp="1657059339568" />
+    <state width="1557" height="299" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1657061133447" />
+    <state width="1557" height="299" key="GridCell.Tab.1.bottom" timestamp="1657061133448">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="299" key="GridCell.Tab.1.bottom/0.0.1600.860/1600.0.1920.1160@0.0.1600.860" timestamp="1657059351343" />
+    <state width="1557" height="299" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1657061133448" />
+    <state width="1557" height="299" key="GridCell.Tab.1.center" timestamp="1657061133448">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="299" key="GridCell.Tab.1.center/0.0.1600.860/1600.0.1920.1160@0.0.1600.860" timestamp="1657059351343" />
+    <state width="1557" height="299" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1657061133448" />
+    <state width="1557" height="299" key="GridCell.Tab.1.left" timestamp="1657061133448">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="299" key="GridCell.Tab.1.left/0.0.1600.860/1600.0.1920.1160@0.0.1600.860" timestamp="1657059351342" />
+    <state width="1557" height="299" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1657061133448" />
+    <state width="1557" height="299" key="GridCell.Tab.1.right" timestamp="1657061133448">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="299" key="GridCell.Tab.1.right/0.0.1600.860/1600.0.1920.1160@0.0.1600.860" timestamp="1657059351343" />
+    <state width="1557" height="299" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1657061133448" />
+    <state x="301" y="73" key="SettingsEditor" timestamp="1657037580853">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="301" y="73" key="SettingsEditor/0.0.1600.860/1600.0.1920.1160@0.0.1600.860" timestamp="1657037580853" />
+    <state x="542" y="50" key="refactoring.ChangeSignatureDialog" timestamp="1657057011559">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="542" y="50" key="refactoring.ChangeSignatureDialog/0.0.1600.860/1600.0.1920.1160@0.0.1600.860" timestamp="1657057011559" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task1Test.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task1Test.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task1Test.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/controller/ExerciseOneController.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/controller/ExerciseOneController.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/controller/ExerciseOneController.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/controller/ExerciseOneController.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/controller/ExerciseOneController.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/controller/ExerciseOneController.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task1Test.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task1Test.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task1Test.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task1Test.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/controller/ExerciseOneController.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/controller/ExerciseOneController.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task1Test.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task1Test.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task1Test.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/controller/ExerciseOneController.java</url>
+          <line>32</line>
+          <properties class="pl.amberteam.antycaptcha.utils.controller.ExerciseOneController">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
