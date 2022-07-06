@@ -3,23 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f9d95a9b-766a-4c51-ab14-c22b46d86177" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/controller/MainUtilitiesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/controller/MainUtilitiesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/pageobject/ExerciseOnePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/pageobject/ExerciseOnePageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/pageobject/ExerciseThreePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/pageobject/ExerciseThreePageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/pageobject/ExerciseTwoPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/pageobject/ExerciseTwoPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task1Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task2Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task3Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task3Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task4Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task4Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/amberteam/antycaptcha/utils/controller/MainUtilitiesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/amberteam/antycaptcha/utils/controller/MainUtilitiesController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/amberteam/antycaptcha/utils/pageobject/ExerciseOnePageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/amberteam/antycaptcha/utils/pageobject/ExerciseOnePageObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/amberteam/antycaptcha/utils/pageobject/ExerciseThreePageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/amberteam/antycaptcha/utils/pageobject/ExerciseThreePageObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/amberteam/antycaptcha/utils/pageobject/ExerciseTwoPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/amberteam/antycaptcha/utils/pageobject/ExerciseTwoPageObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/amberteam/antycaptcha/task/Task1Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/amberteam/antycaptcha/task/Task1Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/amberteam/antycaptcha/task/Task2Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/amberteam/antycaptcha/task/Task2Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/amberteam/antycaptcha/task/Task3Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/amberteam/antycaptcha/task/Task3Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/amberteam/antycaptcha/task/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/amberteam/antycaptcha/task/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/controller/ExerciseOneController.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,59 +205,5 @@
     </state>
     <state x="542" y="50" key="refactoring.ChangeSignatureDialog/0.0.1600.860/1600.0.1920.1160@0.0.1600.860" timestamp="1657057011559" />
     <state x="2250" y="67" key="refactoring.ChangeSignatureDialog/0.0.1600.860/1600.0.1920.1160@1600.0.1920.1160" timestamp="1657127183975" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/controller/ExerciseOneController.java</url>
-          <line>60</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/controller/ExerciseOneController.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/controller/ExerciseOneController.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/controller/ExerciseOneController.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/controller/ExerciseOneController.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/controller/ExerciseOneController.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/controller/ExerciseOneController.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/controller/ExerciseOneController.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/controller/ExerciseOneController.java</url>
-          <line>32</line>
-          <properties class="pl.amberteam.antycaptcha.utils.controller.ExerciseOneController">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
