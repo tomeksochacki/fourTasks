@@ -32,7 +32,7 @@ public class Task3Test extends TestBase {
         mainUtilitiesController.goToURLMethod(PAGE_URL);
 
         //checking if exercise three page is open
-        Assertions.assertTrue(exerciseThreePageObject.isExerciseThreePageVisible(), "Exercise three page does not open");
+        Assertions.assertTrue(mainUtilitiesController.isExercisePageVisible(exerciseThreePageObject.getExerciseThreePageRecognizer()), "Exercise three page does not open");
 
         //getting the text
         WebElement element = wait.until(ExpectedConditions.visibilityOf(exerciseThreePageObject.getDownloadedText()));
@@ -51,7 +51,7 @@ public class Task3Test extends TestBase {
         }
 
         //checking if the actions are correct
-        exerciseThreePageObject.clickButton(exerciseThreePageObject.getSolutionCheckButton());
+        mainUtilitiesController.clickButton(exerciseThreePageObject.getSolutionCheckButton());
 
         //checking if the answer field is displayed
         try {

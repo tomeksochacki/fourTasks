@@ -31,7 +31,7 @@ public class Task2Test extends TestBase {
         mainUtilitiesController.goToURLMethod(PAGE_URL);
 
         //checking if exercise two page is open
-        Assertions.assertTrue(exerciseTwoPageObject.isExerciseTwoPageVisible(), "Exercise two page does not open");
+        Assertions.assertTrue(mainUtilitiesController.isExercisePageVisible(exerciseTwoPageObject.getExerciseTwoPageRecognizer()), "Exercise two page does not open");
 
         //getting the text
         WebElement element = wait.until(ExpectedConditions.visibilityOf(exerciseTwoPageObject.getDownloadedText()));
@@ -42,10 +42,10 @@ public class Task2Test extends TestBase {
         exerciseTwoPageObject.getToTextInput().sendKeys(text);
 
         //clicking b1 button
-        exerciseTwoPageObject.getButtonOne().click();
+        mainUtilitiesController.clickButton(exerciseTwoPageObject.getButtonOne());
 
         //checking if the actions are correct
-        exerciseTwoPageObject.clickButton(exerciseTwoPageObject.getSolutionCheckButton());
+        mainUtilitiesController.clickButton(exerciseTwoPageObject.getSolutionCheckButton());
 
         //checking if the answer field is displayed
         try {

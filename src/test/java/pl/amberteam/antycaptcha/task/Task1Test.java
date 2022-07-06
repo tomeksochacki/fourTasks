@@ -28,23 +28,23 @@ public class Task1Test extends TestBase {
         mainUtilitiesController.goToURLMethod(PAGE_URL);
 
         //checking if exercise one page is open
-        Assertions.assertTrue(exerciseOnePageObject.isExerciseOnePageVisible(), "Exercise one page does not open");
+        Assertions.assertTrue(mainUtilitiesController.isExercisePageVisible(exerciseOnePageObject.getExerciseOnePageRecognizer()), "Exercise one page does not open");
 
         //clicking on buttons
-        exerciseOnePageObject.checkAndClickCorrectButton(exerciseOnePageObject.getButtonOne());
+        mainUtilitiesController.checkAndClickCorrectButton(exerciseOnePageObject.getButtonOne());
         if (wait.until(ExpectedConditions.attributeContains(exerciseOnePageObject.getAnswerAfterClicking(), "innerText", "b1")))
             ;
         {
-            exerciseOnePageObject.checkAndClickCorrectButton(exerciseOnePageObject.getButtonTwo());
+            mainUtilitiesController.checkAndClickCorrectButton(exerciseOnePageObject.getButtonTwo());
             if (wait.until(ExpectedConditions.attributeContains(exerciseOnePageObject.getAnswerAfterClicking(), "innerText", "b1b2")))
                 ;
             {
-                exerciseOnePageObject.checkAndClickCorrectButton(exerciseOnePageObject.getButtonOne());
+                mainUtilitiesController.checkAndClickCorrectButton(exerciseOnePageObject.getButtonOne());
                 if (wait.until(ExpectedConditions.attributeContains(exerciseOnePageObject.getAnswerAfterClicking(), "innerText", "b1b2b1")))
                     ;
                 {
                     //checking if the actions are correct
-                    exerciseOnePageObject.clickButton(exerciseOnePageObject.getSolutionCheckButton());
+                    mainUtilitiesController.clickButton(exerciseOnePageObject.getSolutionCheckButton());
                 }
             }
         }

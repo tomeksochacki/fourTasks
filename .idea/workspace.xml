@@ -3,8 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="f9d95a9b-766a-4c51-ab14-c22b46d86177" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/controller/MainUtilitiesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/controller/MainUtilitiesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/pageobject/ExerciseOnePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/pageobject/ExerciseOnePageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/pageobject/ExerciseThreePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/pageobject/ExerciseThreePageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/pageobject/ExerciseTwoPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/pageobject/ExerciseTwoPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task1Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task2Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task3Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task3Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task4Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task4Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/amberteam/antycaptcha/utils/controller/MainUtilitiesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/amberteam/antycaptcha/utils/controller/MainUtilitiesController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/amberteam/antycaptcha/utils/pageobject/ExerciseOnePageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/amberteam/antycaptcha/utils/pageobject/ExerciseOnePageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/amberteam/antycaptcha/utils/pageobject/ExerciseThreePageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/amberteam/antycaptcha/utils/pageobject/ExerciseThreePageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/amberteam/antycaptcha/utils/pageobject/ExerciseTwoPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/amberteam/antycaptcha/utils/pageobject/ExerciseTwoPageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/amberteam/antycaptcha/task/Task1Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/amberteam/antycaptcha/task/Task1Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/amberteam/antycaptcha/task/Task2Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/amberteam/antycaptcha/task/Task2Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/pl/amberteam/antycaptcha/task/Task3Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/amberteam/antycaptcha/task/Task3Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/amberteam/antycaptcha/task/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/amberteam/antycaptcha/task/TestBase.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +51,7 @@
       <recent name="pl.amberteam.antycaptcha.task" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Task3Test">
+  <component name="RunManager" selected="JUnit.Task4Test">
     <configuration name="Task1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Amber" />
       <extension name="coverage">
@@ -98,8 +113,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task4Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Amber" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.amberteam.antycaptcha.task.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.amberteam.antycaptcha.task" />
+      <option name="MAIN_CLASS_NAME" value="pl.amberteam.antycaptcha.task.Task4Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Task4Test" />
         <item itemvalue="JUnit.Task3Test" />
         <item itemvalue="JUnit.Task2Test" />
         <item itemvalue="JUnit.Task1Test" />
@@ -129,29 +160,29 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="30" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860/1600.0.1920.1160@0.0.1600.860" timestamp="1657100841681" />
-    <state width="1877" height="323" key="GridCell.Tab.0.bottom" timestamp="1657124695126">
+    <state width="1877" height="323" key="GridCell.Tab.0.bottom" timestamp="1657129517041">
       <screen x="1600" y="0" width="1920" height="1160" />
     </state>
     <state width="1557" height="193" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1920.1160@0.0.1600.860" timestamp="1657108887988" />
-    <state width="1877" height="323" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1920.1160@1600.0.1920.1160" timestamp="1657124695126" />
+    <state width="1877" height="323" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1920.1160@1600.0.1920.1160" timestamp="1657129517041" />
     <state width="1557" height="299" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1657061133447" />
-    <state width="1877" height="323" key="GridCell.Tab.0.center" timestamp="1657124695126">
+    <state width="1877" height="323" key="GridCell.Tab.0.center" timestamp="1657129517041">
       <screen x="1600" y="0" width="1920" height="1160" />
     </state>
     <state width="1557" height="193" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1920.1160@0.0.1600.860" timestamp="1657108887988" />
-    <state width="1877" height="323" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1920.1160@1600.0.1920.1160" timestamp="1657124695126" />
+    <state width="1877" height="323" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1920.1160@1600.0.1920.1160" timestamp="1657129517041" />
     <state width="1557" height="299" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1657061133447" />
-    <state width="1877" height="323" key="GridCell.Tab.0.left" timestamp="1657124695126">
+    <state width="1877" height="323" key="GridCell.Tab.0.left" timestamp="1657129517041">
       <screen x="1600" y="0" width="1920" height="1160" />
     </state>
     <state width="1557" height="193" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1920.1160@0.0.1600.860" timestamp="1657108887987" />
-    <state width="1877" height="323" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1920.1160@1600.0.1920.1160" timestamp="1657124695126" />
+    <state width="1877" height="323" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1920.1160@1600.0.1920.1160" timestamp="1657129517041" />
     <state width="1557" height="299" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1657061133447" />
-    <state width="1877" height="323" key="GridCell.Tab.0.right" timestamp="1657124695126">
+    <state width="1877" height="323" key="GridCell.Tab.0.right" timestamp="1657129517041">
       <screen x="1600" y="0" width="1920" height="1160" />
     </state>
     <state width="1557" height="193" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1920.1160@0.0.1600.860" timestamp="1657108887988" />
-    <state width="1877" height="323" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1920.1160@1600.0.1920.1160" timestamp="1657124695126" />
+    <state width="1877" height="323" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1920.1160@1600.0.1920.1160" timestamp="1657129517041" />
     <state width="1557" height="299" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1657061133447" />
     <state width="1877" height="295" key="GridCell.Tab.1.bottom" timestamp="1657111879849">
       <screen x="1600" y="0" width="1920" height="1160" />
@@ -185,10 +216,11 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="496" y="255" key="com.intellij.ide.util.TipDialog/0.0.1600.860/1600.0.1920.1160@0.0.1600.860" timestamp="1657088960050" />
-    <state x="542" y="50" key="refactoring.ChangeSignatureDialog" timestamp="1657057011559">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="2250" y="67" key="refactoring.ChangeSignatureDialog" timestamp="1657127183975">
+      <screen x="1600" y="0" width="1920" height="1160" />
     </state>
     <state x="542" y="50" key="refactoring.ChangeSignatureDialog/0.0.1600.860/1600.0.1920.1160@0.0.1600.860" timestamp="1657057011559" />
+    <state x="2250" y="67" key="refactoring.ChangeSignatureDialog/0.0.1600.860/1600.0.1920.1160@1600.0.1920.1160" timestamp="1657127183975" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

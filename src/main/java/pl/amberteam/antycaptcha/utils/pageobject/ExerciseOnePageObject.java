@@ -1,14 +1,11 @@
 package pl.amberteam.antycaptcha.utils.pageobject;
 
 import lombok.Data;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
 
 import java.time.Duration;
 
@@ -41,51 +38,6 @@ public class ExerciseOnePageObject {
         this.driver = driver;
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(20));
         PageFactory.initElements(driver, this);
-    }
-
-    /*public By buttonIdSelector(String buttonId) {
-        By buttonIdSelector = By.xpath(String.format("//div//button[@name='btnButton'%s']", buttonId));
-        return buttonIdSelector;
-    }*/
-
-    /**
-     * Method checks if exercise one title is displayed in page.
-     *
-     * @return true if wikipedia logo is visible.
-     */
-    public boolean isExerciseOnePageVisible() {
-        wait.until(ExpectedConditions.visibilityOf(exerciseOnePageRecognizer));
-        return exerciseOnePageRecognizer.isDisplayed();
-    }
-
-    /**
-     * Method checks the button name and clicks correct button.
-     */
-    public WebElement checkAndClickCorrectButton(WebElement element) {
-        String nameOfElement = element.getText();
-        switch (nameOfElement) {
-            case "B1":
-            case "B2":
-                clickButton(element);
-                break;
-            default:
-                Assert.fail("Expected button not found");
-        }
-        return element;
-    }
-
-    /**
-     * Method clicks button.
-     */
-    public void clickButton(WebElement button) {
-        wait.until(ExpectedConditions.elementToBeClickable(button)).click();
-    }
-
-    /**
-     * Method waits for element.
-     */
-    public void waitForElement() {
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//pre//code[@class='wrap']")));
     }
 
 }

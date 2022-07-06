@@ -5,7 +5,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
@@ -43,22 +42,4 @@ public class ExerciseTwoPageObject {
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(20));
         PageFactory.initElements(driver, this);
     }
-
-    /**
-     * Method checks if exercise one title is displayed in page.
-     *
-     * @return true if wikipedia logo is visible.
-     */
-    public boolean isExerciseTwoPageVisible() {
-        wait.until(ExpectedConditions.visibilityOf(exerciseTwoPageRecognizer));
-        return exerciseTwoPageRecognizer.isDisplayed();
-    }
-
-    /**
-     * Method clicks button.
-     */
-    public void clickButton(WebElement button) {
-        wait.until(ExpectedConditions.elementToBeClickable(button)).click();
-    }
-
 }
