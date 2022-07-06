@@ -13,7 +13,7 @@ import org.testng.Assert;
 import java.time.Duration;
 
 @Data
-public class ExerciseOnePageObjects {
+public class ExerciseOnePageObject {
 
     @FindBy(xpath = "//h1[contains(text(),'Exercise 1 - Three buttons')]")
     private WebElement exerciseOnePageRecognizer;
@@ -27,18 +27,26 @@ public class ExerciseOnePageObjects {
     @FindBy(xpath = "//div//button[@name='end']")
     private WebElement solutionCheckButton;
 
-    /*@FindBy(xpath = "//pre//code[@class='wrap']")
-    private WebElement answerForSolutions;*/
+    @FindBy(xpath = "//pre//code[@class='wrap']")
+    private WebElement answerAfterClicking;
+
+    @FindBy(xpath = "//td//code[contains(text(),'b1b2b1')]")
+    private WebElement expectedOutcome;
 
     private final WebDriver driver;
     private final WebDriverWait wait;
     private static final long DEFAULT_S_TIMEOUT = 20;
 
-    public ExerciseOnePageObjects(final WebDriver driver) {
+    public ExerciseOnePageObject(final WebDriver driver) {
         this.driver = driver;
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(20));
         PageFactory.initElements(driver, this);
     }
+
+    /*public By buttonIdSelector(String buttonId) {
+        By buttonIdSelector = By.xpath(String.format("//div//button[@name='btnButton'%s']", buttonId));
+        return buttonIdSelector;
+    }*/
 
     /**
      * Method checks if exercise one title is displayed in page.
@@ -53,7 +61,7 @@ public class ExerciseOnePageObjects {
     /**
      * Method checks the button name and clicks correct button.
      */
-    public void checkAndClickCorrectButton(WebElement element) {
+    public WebElement checkAndClickCorrectButton(WebElement element) {
         String nameOfElement = element.getText();
         switch (nameOfElement) {
             case "B1":
@@ -63,6 +71,7 @@ public class ExerciseOnePageObjects {
             default:
                 Assert.fail("Expected button not found");
         }
+        return element;
     }
 
     /**
@@ -75,9 +84,8 @@ public class ExerciseOnePageObjects {
     /**
      * Method waits for element.
      */
-    public void waitForElement(){
+    public void waitForElement() {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//pre//code[@class='wrap']")));
     }
-
 
 }

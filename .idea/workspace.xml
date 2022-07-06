@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9d95a9b-766a-4c51-ab14-c22b46d86177" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/pageobject/ExerciseOnePageObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/pageobject/ExerciseOnePageObjects.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task1Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task2Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/amberteam/antycaptcha/utils/pageobject/ExerciseOnePageObjects.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/amberteam/antycaptcha/task/Task1Test$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/amberteam/antycaptcha/task/Task1Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/amberteam/antycaptcha/task/Task1Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/amberteam/antycaptcha/task/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/amberteam/antycaptcha/task/TestBase.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +43,7 @@
       <recent name="pl.amberteam.antycaptcha.task" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Task1Test">
+  <component name="RunManager" selected="JUnit.Task2Test">
     <configuration name="Task1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Amber" />
       <extension name="coverage">
@@ -69,8 +75,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Amber" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.amberteam.antycaptcha.task.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.amberteam.antycaptcha.task" />
+      <option name="MAIN_CLASS_NAME" value="pl.amberteam.antycaptcha.task.Task2Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Task2Test" />
         <item itemvalue="JUnit.Task1Test" />
         <item itemvalue="JUnit.Task1Test.openExerciseOnePageTest" />
       </list>
@@ -94,50 +116,58 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="329" y="356" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1600.860@0.0.1600.860" timestamp="1657034313928" />
-    <state width="1557" height="299" key="GridCell.Tab.0.bottom" timestamp="1657061133447">
+    <state x="30" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1657100841681">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="299" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1920.1160@0.0.1600.860" timestamp="1657059339568" />
+    <state x="30" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860/1600.0.1920.1160@0.0.1600.860" timestamp="1657100841681" />
+    <state width="1557" height="127" key="GridCell.Tab.0.bottom" timestamp="1657104793781">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="127" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1920.1160@0.0.1600.860" timestamp="1657104793781" />
     <state width="1557" height="299" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1657061133447" />
-    <state width="1557" height="299" key="GridCell.Tab.0.center" timestamp="1657061133447">
+    <state width="1557" height="127" key="GridCell.Tab.0.center" timestamp="1657104793781">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="299" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1920.1160@0.0.1600.860" timestamp="1657059339568" />
+    <state width="1557" height="127" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1920.1160@0.0.1600.860" timestamp="1657104793781" />
     <state width="1557" height="299" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1657061133447" />
-    <state width="1557" height="299" key="GridCell.Tab.0.left" timestamp="1657061133447">
+    <state width="1557" height="127" key="GridCell.Tab.0.left" timestamp="1657104793781">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="299" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1920.1160@0.0.1600.860" timestamp="1657059339567" />
+    <state width="1557" height="127" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1920.1160@0.0.1600.860" timestamp="1657104793781" />
     <state width="1557" height="299" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1657061133447" />
-    <state width="1557" height="299" key="GridCell.Tab.0.right" timestamp="1657061133447">
+    <state width="1557" height="127" key="GridCell.Tab.0.right" timestamp="1657104793781">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="299" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1920.1160@0.0.1600.860" timestamp="1657059339568" />
+    <state width="1557" height="127" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1920.1160@0.0.1600.860" timestamp="1657104793781" />
     <state width="1557" height="299" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1657061133447" />
-    <state width="1557" height="299" key="GridCell.Tab.1.bottom" timestamp="1657061133448">
+    <state width="1557" height="204" key="GridCell.Tab.1.bottom" timestamp="1657099214621">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="299" key="GridCell.Tab.1.bottom/0.0.1600.860/1600.0.1920.1160@0.0.1600.860" timestamp="1657059351343" />
+    <state width="1557" height="204" key="GridCell.Tab.1.bottom/0.0.1600.860/1600.0.1920.1160@0.0.1600.860" timestamp="1657099214621" />
     <state width="1557" height="299" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1657061133448" />
-    <state width="1557" height="299" key="GridCell.Tab.1.center" timestamp="1657061133448">
+    <state width="1557" height="204" key="GridCell.Tab.1.center" timestamp="1657099214621">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="299" key="GridCell.Tab.1.center/0.0.1600.860/1600.0.1920.1160@0.0.1600.860" timestamp="1657059351343" />
+    <state width="1557" height="204" key="GridCell.Tab.1.center/0.0.1600.860/1600.0.1920.1160@0.0.1600.860" timestamp="1657099214621" />
     <state width="1557" height="299" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1657061133448" />
-    <state width="1557" height="299" key="GridCell.Tab.1.left" timestamp="1657061133448">
+    <state width="1557" height="204" key="GridCell.Tab.1.left" timestamp="1657099214621">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="299" key="GridCell.Tab.1.left/0.0.1600.860/1600.0.1920.1160@0.0.1600.860" timestamp="1657059351342" />
+    <state width="1557" height="204" key="GridCell.Tab.1.left/0.0.1600.860/1600.0.1920.1160@0.0.1600.860" timestamp="1657099214621" />
     <state width="1557" height="299" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1657061133448" />
-    <state width="1557" height="299" key="GridCell.Tab.1.right" timestamp="1657061133448">
+    <state width="1557" height="204" key="GridCell.Tab.1.right" timestamp="1657099214621">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="299" key="GridCell.Tab.1.right/0.0.1600.860/1600.0.1920.1160@0.0.1600.860" timestamp="1657059351343" />
+    <state width="1557" height="204" key="GridCell.Tab.1.right/0.0.1600.860/1600.0.1920.1160@0.0.1600.860" timestamp="1657099214621" />
     <state width="1557" height="299" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1657061133448" />
     <state x="301" y="73" key="SettingsEditor" timestamp="1657037580853">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="73" key="SettingsEditor/0.0.1600.860/1600.0.1920.1160@0.0.1600.860" timestamp="1657037580853" />
+    <state x="496" y="255" key="com.intellij.ide.util.TipDialog" timestamp="1657088960050">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="496" y="255" key="com.intellij.ide.util.TipDialog/0.0.1600.860/1600.0.1920.1160@0.0.1600.860" timestamp="1657088960050" />
     <state x="542" y="50" key="refactoring.ChangeSignatureDialog" timestamp="1657057011559">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -146,21 +176,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task1Test.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task1Test.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task1Test.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/controller/ExerciseOneController.java</url>
           <line>60</line>
@@ -192,26 +207,6 @@
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task1Test.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task1Test.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task1Test.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task1Test.java</url>
-          <line>56</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/controller/ExerciseOneController.java</url>
           <line>33</line>
           <option name="timeStamp" value="29" />
@@ -220,21 +215,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/controller/ExerciseOneController.java</url>
           <line>34</line>
           <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task1Test.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task1Test.java</url>
-          <line>53</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task1Test.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/controller/ExerciseOneController.java</url>

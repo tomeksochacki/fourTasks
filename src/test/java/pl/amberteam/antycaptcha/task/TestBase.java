@@ -8,6 +8,8 @@ import org.openqa.selenium.WebDriver;
 import pl.amberteam.antycaptcha.DriverFactory;
 import pl.amberteam.antycaptcha.utils.controller.MainUtilitiesController;
 
+import java.time.Duration;
+
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class TestBase {
@@ -20,11 +22,12 @@ public class TestBase {
         DriverFactory driverFactory = new DriverFactory();
         this.webDriver = driverFactory.initDriver();
         this.mainUtilitiesController = new MainUtilitiesController(webDriver);
+        this.webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         this.webDriver.manage().window().maximize();
     }
 
-    @AfterAll
+    /*@AfterAll
     public void cleanUp(){
         this.webDriver.quit();
-    }
+    }*/
 }
