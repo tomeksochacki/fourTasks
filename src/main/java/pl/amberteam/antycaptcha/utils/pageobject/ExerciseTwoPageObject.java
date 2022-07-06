@@ -17,13 +17,22 @@ public class ExerciseTwoPageObject {
     private WebElement exerciseTwoPageRecognizer;
 
     @FindBy(xpath = "//td//code[text()='Generation than left.']")
-    private WebElement toEnterText;
+    private WebElement downloadedText;
 
     @FindBy(xpath = "//div//input[@id='t14']")
     private WebElement toTextInput;
 
     @FindBy(xpath = "//div//button[@name='btnButton1']")
     private WebElement buttonOne;
+
+    @FindBy(xpath = "//div//button[@name='end']")
+    private WebElement solutionCheckButton;
+
+    @FindBy(xpath = "//td//code[contains(text(),'t14:Generation than left.b1')]")
+    private WebElement expectedOutcome;
+
+    @FindBy(xpath = "//pre//code[@class='wrap']")
+    private WebElement answerAfterClicking;
 
     private final WebDriver driver;
     private final WebDriverWait wait;
@@ -45,7 +54,11 @@ public class ExerciseTwoPageObject {
         return exerciseTwoPageRecognizer.isDisplayed();
     }
 
-
-
+    /**
+     * Method clicks button.
+     */
+    public void clickButton(WebElement button) {
+        wait.until(ExpectedConditions.elementToBeClickable(button)).click();
+    }
 
 }

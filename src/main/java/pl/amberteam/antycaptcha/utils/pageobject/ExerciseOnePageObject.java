@@ -27,11 +27,11 @@ public class ExerciseOnePageObject {
     @FindBy(xpath = "//div//button[@name='end']")
     private WebElement solutionCheckButton;
 
-    @FindBy(xpath = "//pre//code[@class='wrap']")
-    private WebElement answerAfterClicking;
-
     @FindBy(xpath = "//td//code[contains(text(),'b1b2b1')]")
     private WebElement expectedOutcome;
+
+    @FindBy(xpath = "//pre//code[@class='wrap']")
+    private WebElement answerAfterClicking;
 
     private final WebDriver driver;
     private final WebDriverWait wait;
