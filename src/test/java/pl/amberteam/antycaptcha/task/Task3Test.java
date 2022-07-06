@@ -11,9 +11,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import pl.amberteam.antycaptcha.utils.pageobject.ExerciseThreePageObject;
 
 import java.time.Duration;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 public class Task3Test extends TestBase {
 
@@ -44,24 +41,18 @@ public class Task3Test extends TestBase {
         //retrieving a drop-down menu as a Select object
         Select listOfColors = new Select(webDriver.findElement(By.xpath("//div//select[@name='s13']")));
 
-        //check if the drop-down menu matches the expected values in the array
-        List<String> expectedList = Arrays.asList("---choose---", "Beluga Brown", "Mango Orange", "Verdoro Green", "Freudian Gilt", "Pink Kong", "Duck Egg Blue", "Anti - Establishment Mint", "Amberlite Firemist");
-        List<String> actualList = new ArrayList<String>();
-
-        //get the value of a drop-down menu option using getOptions()
-        for (WebElement option : listOfColors.getOptions()) {
-            actualList.add(option.getText());
+        //getting the value of a drop-down menu colors and selecting one color
+        String lookingForColor = "Anti - Establishment Mint";
+        for (WebElement color : listOfColors.getOptions()) {
+            if (color.getText().equals(lookingForColor)) {
+                listOfColors.selectByVisibleText(text);
+                break;
+            }
         }
-
-        //checking if the elements of the expected and actual options array match
-        Assertions.assertArrayEquals(expectedList.toArray(), actualList.toArray(), "The expected values are listed");
-
-        //choosing a color
-        listOfColors.selectByVisibleText(text);
 
         //checking if the actions are correct
         exerciseThreePageObject.clickButton(exerciseThreePageObject.getSolutionCheckButton());
-        
+
         //checking if the answer field is displayed
         try {
             webDriver.findElement(By.xpath("//pre//code[@class='wrap']")).isDisplayed();
