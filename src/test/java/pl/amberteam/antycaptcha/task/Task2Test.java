@@ -47,9 +47,9 @@ public class Task2Test extends TestBase {
         //checking if the actions are correct
         exerciseTwoPageObject.clickButton(exerciseTwoPageObject.getSolutionCheckButton());
 
-        //checking the current result with the expected result
+        //checking if the answer field is displayed
         try {
-            Boolean answerElement = webDriver.findElement(By.xpath("//pre//code[@class='wrap']")).isDisplayed();
+            webDriver.findElement(By.xpath("//pre//code[@class='wrap']")).isDisplayed();
         } catch (Exception e) {
             Assertions.fail("The answer field is not on the page. Application error.");
         }

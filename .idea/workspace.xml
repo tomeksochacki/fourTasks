@@ -3,12 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f9d95a9b-766a-4c51-ab14-c22b46d86177" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/pageobject/ExerciseOnePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/pageobject/ExerciseOnePageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/pageobject/ExerciseTwoPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/pageobject/ExerciseTwoPageObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task2Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/amberteam/antycaptcha/utils/pageobject/ExerciseOnePageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/amberteam/antycaptcha/utils/pageobject/ExerciseOnePageObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/amberteam/antycaptcha/utils/pageobject/ExerciseTwoPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/amberteam/antycaptcha/utils/pageobject/ExerciseTwoPageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task3Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task3Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/pl/amberteam/antycaptcha/task/Task2Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/amberteam/antycaptcha/task/Task2Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/amberteam/antycaptcha/task/Task3Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/amberteam/antycaptcha/task/Task3Test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +38,7 @@
       <recent name="pl.amberteam.antycaptcha.task" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Task2Test">
+  <component name="RunManager" selected="JUnit.Task3Test">
     <configuration name="Task1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Amber" />
       <extension name="coverage">
@@ -87,8 +85,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task3Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Amber" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.amberteam.antycaptcha.task.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.amberteam.antycaptcha.task" />
+      <option name="MAIN_CLASS_NAME" value="pl.amberteam.antycaptcha.task.Task3Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Task3Test" />
         <item itemvalue="JUnit.Task2Test" />
         <item itemvalue="JUnit.Task1Test" />
         <item itemvalue="JUnit.Task1Test.openExerciseOnePageTest" />
@@ -117,29 +131,29 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="30" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860/1600.0.1920.1160@0.0.1600.860" timestamp="1657100841681" />
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1657115622332">
+    <state width="1877" height="323" key="GridCell.Tab.0.bottom" timestamp="1657120949584">
       <screen x="1600" y="0" width="1920" height="1160" />
     </state>
     <state width="1557" height="193" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1920.1160@0.0.1600.860" timestamp="1657108887988" />
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1920.1160@1600.0.1920.1160" timestamp="1657115622332" />
+    <state width="1877" height="323" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1920.1160@1600.0.1920.1160" timestamp="1657120949584" />
     <state width="1557" height="299" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1657061133447" />
-    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1657115622332">
+    <state width="1877" height="323" key="GridCell.Tab.0.center" timestamp="1657120949584">
       <screen x="1600" y="0" width="1920" height="1160" />
     </state>
     <state width="1557" height="193" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1920.1160@0.0.1600.860" timestamp="1657108887988" />
-    <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1920.1160@1600.0.1920.1160" timestamp="1657115622332" />
+    <state width="1877" height="323" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1920.1160@1600.0.1920.1160" timestamp="1657120949584" />
     <state width="1557" height="299" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1657061133447" />
-    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1657115622332">
+    <state width="1877" height="323" key="GridCell.Tab.0.left" timestamp="1657120949584">
       <screen x="1600" y="0" width="1920" height="1160" />
     </state>
     <state width="1557" height="193" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1920.1160@0.0.1600.860" timestamp="1657108887987" />
-    <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1920.1160@1600.0.1920.1160" timestamp="1657115622332" />
+    <state width="1877" height="323" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1920.1160@1600.0.1920.1160" timestamp="1657120949584" />
     <state width="1557" height="299" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1657061133447" />
-    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1657115622332">
+    <state width="1877" height="323" key="GridCell.Tab.0.right" timestamp="1657120949584">
       <screen x="1600" y="0" width="1920" height="1160" />
     </state>
     <state width="1557" height="193" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1920.1160@0.0.1600.860" timestamp="1657108887988" />
-    <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1920.1160@1600.0.1920.1160" timestamp="1657115622332" />
+    <state width="1877" height="323" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1920.1160@1600.0.1920.1160" timestamp="1657120949584" />
     <state width="1557" height="299" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1657061133447" />
     <state width="1877" height="295" key="GridCell.Tab.1.bottom" timestamp="1657111879849">
       <screen x="1600" y="0" width="1920" height="1160" />
@@ -220,51 +234,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/controller/ExerciseOneController.java</url>
           <line>34</line>
           <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task2Test.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task2Test.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task2Test.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task2Test.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task2Test.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task2Test.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task2Test.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task2Test.java</url>
-          <line>57</line>
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task2Test.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/controller/ExerciseOneController.java</url>
