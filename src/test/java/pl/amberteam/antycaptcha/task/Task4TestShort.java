@@ -9,13 +9,13 @@ import pl.amberteam.antycaptcha.utils.pageobject.ExerciseFourPageObject;
 
 import java.time.Duration;
 
-public class Task4Test extends TestBase {
+public class Task4TestShort extends TestBase {
     private static final String PAGE_URL = "https://antycaptcha.amberteam.pl/exercises/exercise4?seed=4a51f42a-1563-4a06-8dce-7b92f0a670c0";
 
     private final ExerciseFourPageObject exerciseFourPageObject;
     private final WebDriverWait wait;
 
-    public Task4Test() {
+    public Task4TestShort() {
         super();
         this.wait = new WebDriverWait(webDriver, Duration.ofSeconds(20));
         this.exerciseFourPageObject = new ExerciseFourPageObject(webDriver);
@@ -30,32 +30,13 @@ public class Task4Test extends TestBase {
         Assertions.assertTrue(mainUtilitiesController.isExercisePageVisible(exerciseFourPageObject.getExerciseFourPageRecognizer()), "Exercise four page does not open");
 
         //select group 0
-        mainUtilitiesController.selectElement(
-                exerciseFourPageObject.getByForAllTextInZeroGroup(),
-                exerciseFourPageObject.getSelectElementNameForZeroGroup(),
-                exerciseFourPageObject.getByForCheckboxListZero(),
-                exerciseFourPageObject.getCheckboxValueForZeroGroup());
-
+        mainUtilitiesController.selectElement(exerciseFourPageObject.getCheckboxForZeroGroup());
         //select group 1
-        mainUtilitiesController.selectElement(
-                exerciseFourPageObject.getByForAllTextInOneGroup(),
-                exerciseFourPageObject.getSelectElementNameForOneGroup(),
-                exerciseFourPageObject.getByForCheckboxListOne(),
-                exerciseFourPageObject.getCheckboxValueForOneGroup());
-
+        mainUtilitiesController.selectElement(exerciseFourPageObject.getCheckboxForOneGroup());
         //select group 2
-        mainUtilitiesController.selectElement(
-                exerciseFourPageObject.getByForAllTextInTwoGroup(),
-                exerciseFourPageObject.getSelectElementNameForTwoGroup(),
-                exerciseFourPageObject.getByForCheckboxListTwo(),
-                exerciseFourPageObject.getCheckboxValueForTwoGroup());
-
+        mainUtilitiesController.selectElement(exerciseFourPageObject.getCheckboxForTwoGroup());
         //select group 3
-        mainUtilitiesController.selectElement(
-                exerciseFourPageObject.getByForAllTextInThreeGroup(),
-                exerciseFourPageObject.getSelectElementNameForThreeGroup(),
-                exerciseFourPageObject.getByForCheckboxListThree(),
-                exerciseFourPageObject.getCheckboxValueForThreeGroup());
+        mainUtilitiesController.selectElement(exerciseFourPageObject.getCheckboxForThreeGroup());
 
         //checking if the actions are correct
         mainUtilitiesController.clickButton(exerciseFourPageObject.getSolutionCheckButton());

@@ -1,0 +1,6 @@
+pl\amberteam\antycaptcha\utils\pageobject\ExerciseFourPageObject.class
+pl\amberteam\antycaptcha\DriverFactory.class
+pl\amberteam\antycaptcha\utils\controller\MainUtilitiesController.class
+pl\amberteam\antycaptcha\utils\pageobject\ExerciseThreePageObject.class
+pl\amberteam\antycaptcha\utils\pageobject\ExerciseTwoPageObject.class
+pl\amberteam\antycaptcha\utils\pageobject\ExerciseOnePageObject.class
