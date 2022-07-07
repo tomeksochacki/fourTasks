@@ -10,7 +10,8 @@ public class DriverFactory {
     public static synchronized WebDriver getDriver() {
         return tlDriver.get();
     }
-    public WebDriver initDriver(){
+
+    public WebDriver initDriver() {
         WebDriverManager.getInstance(ChromeDriver.class).driverVersion("102.0.5005.63").setup();
         WebDriver webDriver = new ChromeDriver();
         tlDriver.set(webDriver);

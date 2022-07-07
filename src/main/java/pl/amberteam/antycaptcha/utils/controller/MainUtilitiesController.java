@@ -87,7 +87,7 @@ public class MainUtilitiesController {
         return this;
     }
 
-    public void selectElement(WebElement element){
+    public void selectElement(WebElement element) {
         if (!element.isSelected()) {
             element.click();
         }

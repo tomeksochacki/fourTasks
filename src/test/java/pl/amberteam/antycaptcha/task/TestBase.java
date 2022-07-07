@@ -19,8 +19,7 @@ public class TestBase {
     protected WebDriverWait wait;
     protected MainUtilitiesController mainUtilitiesController;
 
-    public TestBase()
-    {
+    public TestBase() {
         DriverFactory driverFactory = new DriverFactory();
         this.webDriver = driverFactory.initDriver();
         this.mainUtilitiesController = new MainUtilitiesController(webDriver, wait);
@@ -29,7 +28,7 @@ public class TestBase {
     }
 
     @AfterAll
-    public void cleanUp(){
+    public void cleanUp() {
         this.webDriver.quit();
     }
 }
