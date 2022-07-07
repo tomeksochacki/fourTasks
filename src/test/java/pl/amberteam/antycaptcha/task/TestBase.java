@@ -1,5 +1,6 @@
 package pl.amberteam.antycaptcha.task;
 
+import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.TestInstance;
 import org.junit.jupiter.api.TestMethodOrder;
@@ -27,8 +28,8 @@ public class TestBase {
         this.webDriver.manage().window().maximize();
     }
 
-    /*@AfterAll
+    @AfterAll
     public void cleanUp(){
         this.webDriver.quit();
-    }*/
+    }
 }

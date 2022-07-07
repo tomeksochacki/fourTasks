@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9d95a9b-766a-4c51-ab14-c22b46d86177" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/controller/MainUtilitiesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/controller/MainUtilitiesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/pageobject/ExerciseFourPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/amberteam/antycaptcha/utils/pageobject/ExerciseFourPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task4Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/Task4Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/amberteam/antycaptcha/utils/controller/MainUtilitiesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/amberteam/antycaptcha/utils/controller/MainUtilitiesController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/amberteam/antycaptcha/utils/pageobject/ExerciseFourPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/amberteam/antycaptcha/utils/pageobject/ExerciseFourPageObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/amberteam/antycaptcha/utils/pageobject/ExerciseOnePageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/amberteam/antycaptcha/utils/pageobject/ExerciseOnePageObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/amberteam/antycaptcha/utils/pageobject/ExerciseThreePageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/amberteam/antycaptcha/utils/pageobject/ExerciseThreePageObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/amberteam/antycaptcha/utils/pageobject/ExerciseTwoPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/amberteam/antycaptcha/utils/pageobject/ExerciseTwoPageObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/amberteam/antycaptcha/task/Task2Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/amberteam/antycaptcha/task/Task2Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/amberteam/antycaptcha/task/Task3Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/amberteam/antycaptcha/task/Task3Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/amberteam/antycaptcha/task/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
